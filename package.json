@@ -1,0 +1,41 @@
+{
+  "name": "emp-plugin-babel-vue-3",
+  "version": "1.0.0-beta3",
+  "description": "EMP(v2) vue3 plugin of babel.",
+  "main": "dist/index.js",
+  "author": "MAXLZ1",
+  "license": "MIT",
+  "keywords": [
+    "emp",
+    "babel",
+    "vue3"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MAXLZ1/emp-vue3-supplement"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-decorators": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@efox/emp": "^2.0.2",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "babel-loader": "^8.2.3",
+    "vue-loader": "^16.8.3",
+    "vue-svg-loader": "^0.17.0-beta.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "@provincial-platform/eslint-config-js": "^0.1.6",
+    "@provincial-platform/eslint-config-ts": "^0.2.2",
+    "eslint": "^7.29.0",
+    "husky": "^7.0.4"
+  }
+}
